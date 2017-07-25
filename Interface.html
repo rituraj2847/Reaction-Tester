@@ -1,0 +1,72 @@
+<!-- Download the file and open with your web browser -->
+
+<html>
+    <head>
+        <title>Reaction Tester</title>
+        
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <script type="text/javascript" src="test.js"></script>
+        <style type = "text/css">
+        
+            h1{
+                 color:white;
+                margin-top: 30px;
+                font-size: 400%;  
+                text-align: center;
+            }
+
+            #time{
+                float:left;
+                font-size: 200%;
+                color: chartreuse;
+                border: 5px solid red;
+                width: 300px;
+                padding-left: 10px; 
+            }
+            #time2{
+                float:right;
+                font-size: 200%;
+                color: chartreuse;
+                border: 5px solid red;
+                width: 300px;
+                padding-left: 10px;
+            }
+            #container{
+                margin-bottom: 500px;
+            }
+            #shape{
+                width: 200px;
+                height: 200px;
+                background-color: indianred;
+                position: relative;
+                top: 200px;
+            } 
+            #note{
+                color: white;
+                text-align: center;
+            }
+            #bottom-text{
+                text-align: center;
+                color:white;
+            }
+            body{
+                font-family: 'Roboto', sans-serif;
+                background-color: #222222;
+            }
+         
+        </style>
+    </head>
+    <body>
+        
+        <h1>Test Your Reactions !</h1>
+        <p id="note"> Click on the shapes as quickly as you can and note your time :)</p>
+        <div id="time"> Your time : <span id="text"></span></div>
+        <div id="time2">Beat the time : <span id="text2"></span></div>
+        <div id="container">
+        <div id="shape" onclick="change()"></div></div>
+        <p id="bottom-text">Made with <3 using HTML, CSS and JS.</p>
+ 
+    </body>
+
+
+</html>
